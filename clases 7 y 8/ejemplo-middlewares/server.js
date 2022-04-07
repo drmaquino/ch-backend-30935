@@ -40,7 +40,7 @@ app.get('/ruta2', mid1, mid2, (req, res) => {
     })
 })
 
-app.get('/rota', (req, res) => {
+app.get('/rota', (req, res, next) => {
     try {
         throw Error(mensajeDeError)
     } catch (error) {
