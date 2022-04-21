@@ -9,7 +9,7 @@ const handlebarsConfig = {
   defaultLayout: 'index.handlebars'
 }
 
-app.engine('handlebars', exphbs(handlebarsConfig))
+app.engine('handlebars', exphbs.engine(handlebarsConfig))
 
 app.set('view engine', 'handlebars')
 
