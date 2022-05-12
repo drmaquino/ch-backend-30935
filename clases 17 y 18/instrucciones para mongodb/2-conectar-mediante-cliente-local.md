@@ -15,7 +15,7 @@
     (Enter password:) mongopassword
 
 ## También funciona con string de conexión
-    mongodb://<username>:<password>@<host>:<port>/<dbname>?authSource=admin&w=1
+    mongosh "mongodb://<username>:<password>@<host>:<port>/<dbname>?authSource=admin&w=1"
 
 ### Ejemplo
-    mongodb://coder:house@localhost:27017/coderhouse?authSource=admin&w=1
+    mongosh "mongodb://coder:house@localhost:27017/coderhouse?authSource=admin&w=1"
