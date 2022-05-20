@@ -1,6 +1,6 @@
 {
   "type": "module",
-  "name": "ejemplofirestore",
+  "name": "clases-20.5---afterclass",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "firebase-admin": "^10.2.0"
+    "mongoose": "^6.3.4"
   }
 }

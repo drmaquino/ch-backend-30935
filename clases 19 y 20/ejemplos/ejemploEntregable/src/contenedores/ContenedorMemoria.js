@@ -14,19 +14,10 @@ class ContenedorMemoria {
     }
 
     listarAll() {
-        return [ ...this.elementos ]
+        return [...this.elementos]
     }
 
-    guardar(elem) {
-
-        let newId
-        if (this.elementos.length == 0) {
-            newId = 1
-        } else {
-            newId = this.elementos[ this.elementos.length - 1 ].id + 1
-        }
-
-        const newElem = { ...elem, id: newId }
+    guardar(newElem) {
         this.elementos.push(newElem)
         return newElem
     }
@@ -36,7 +27,7 @@ class ContenedorMemoria {
         if (index == -1) {
             throw new Error(`Error al actualizar: elemento no encontrado`)
         } else {
-            this.elementos[ index ] = elem
+            this.elementos[index] = elem
             return elem
         }
     }
@@ -46,7 +37,7 @@ class ContenedorMemoria {
         if (index == -1) {
             throw new Error(`Error al borrar: elemento no encontrado`)
         } else {
-            return this.elementos.splice(index, 1)[ 0 ]
+            return this.elementos.splice(index, 1)[0]
         }
     }
 

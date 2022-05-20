@@ -1,22 +1,40 @@
 import { MongoClient } from 'mongodb'
 
-const host = 'localhost'
+// EJEMPLO LOCAL
+
+// const host = 'localhost'
 // const port = '27017'
 
-const username = 'root'
-const password = 'mongopassword'
+// const username = 'root'
+// const password = 'mongopassword'
 
-const uri = `mongodb://${host}`//:${port}`;
+// const uri = `mongodb://${host}`//:${port}`;
+
+// const client = new MongoClient(uri, {
+//     useNewUrlParser: true,
+//     useUnifiedTopology: true,
+//     authSource: "admin",
+//     auth: {
+//         username,
+//         password,
+//     }
+// })
+
+//======================================================
+// EJEMPLO REMOTO (MONGO ATLAS)
+
+const username = 'coderhouse'
+const password = 'coderhouse'
+
+const uri = `mongodb+srv://${username}:${password}@cluster0.o0eqf.mongodb.net/?retryWrites=true&w=majority`
 
 const client = new MongoClient(uri, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-    authSource: "admin",
-    auth: {
-        username,
-        password,
-    }
+    authSource: "admin"
 })
+
+//-------------
 
 await client.connect()
 

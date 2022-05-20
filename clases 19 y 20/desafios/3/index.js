@@ -1,7 +1,5 @@
 import mongoose from 'mongoose'
 
-const Schema = mongoose.Schema
-
 /* --------------------------------------------------------------------- */
 /*  Definición del esquema de documento y del modelo                     */
 /*  (para poder interactuar con la base de datos: leer, escribir, etc)   */
@@ -21,7 +19,15 @@ const estudiantesDAO = mongoose.model('estudiantes', estudianteSchema)
 /* ------------------------------------------------------------------ */
 /*               Conexión a la base de datos : colegio                */
 /* ------------------------------------------------------------------ */
-await mongoose.connect('mongodb://localhost/colegio', {
+
+// const username = 'coderhouse'
+// const password = 'coderhouse'
+// const database = 'coderhouse'
+// const mongoUri = `mongodb+srv://${username}:${password}@cluster0.o0eqf.mongodb.net/${database}?retryWrites=true&w=majority`
+
+const mongoUri = 'mongodb://localhost/colegio'
+
+await mongoose.connect(mongoUri, {
   serverSelectionTimeoutMS: 5000,
 })
 console.log('Base de datos conectada')

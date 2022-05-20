@@ -5,15 +5,17 @@
   "description": "ejemplo de uso de daos",
   "main": "src/main.js",
   "scripts": {
-    "start": "node ."
+    "start": "node .",
+    "start:mongo": "PERS=mongodb node .",
+    "start:firebase": "PERS=firebase node ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "firebase-admin": "^9.11.0",
-    "mongodb": "^3.6.11",
-    "mongoose": "^5.13.7"
+    "express": "^4.18.1",
+    "firebase-admin": "^10.2.0",
+    "mongodb": "^4.6.0",
+    "mongoose": "^6.3.3"
   }
 }

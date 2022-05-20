@@ -5,12 +5,12 @@ const serviceAccount = JSON.parse(fs.readFileSync("./db/coderhouse-27fef-firebas
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
-    databaseURL: "https://carbon-nucleus-264418.firebaseio.com"
+    // databaseURL: "https://carbon-nucleus-264418.firebaseio.com"
 });
 
-const asObj = doc => ({ id: doc.id, ...doc.data() })
-
 console.log('Base Firebase conectada!')
+
+const asObj = doc => ({ id: doc.id, ...doc.data() })
 
 const db = admin.firestore();
 const dbNombres = db.collection('nombres')

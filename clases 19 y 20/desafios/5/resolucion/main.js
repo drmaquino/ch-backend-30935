@@ -11,6 +11,7 @@ admin.initializeApp({
 console.log('Base Firebase conectada!')
 
 const db = admin.firestore();
+
 const colores = db.collection('colores')
 
 // /* --------------------------------------- */
@@ -29,7 +30,7 @@ snapshot.forEach(doc => {
 
 // /* --------------------------------------- */
 // 3) Modificar el color blue por navy.
-await colores.doc(blue.id).update({ color: 'navy' });
+await colores.doc(blue.id).update({ nombre: 'navy' });
 console.log("El color ha sido actualizado");
 
 /* --------------------------------------- */
