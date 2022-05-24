@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "name": "tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "node test/test.js",
+    "tdd": "nodemon test/test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
