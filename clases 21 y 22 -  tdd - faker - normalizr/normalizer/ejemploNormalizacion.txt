@@ -1,0 +1,78 @@
+nombre: marian
+
+direccion: 
+    calle: rivadavia
+    nro: 1234
+
+telefonos: 
+    1234,
+    5678
+
+// personas 
+const p = {
+    nombre: marian
+    direccion: {
+        calle: rivadavia
+        nro: 1234
+    }
+    telefonos: [
+        1234,
+        5678,
+        3333
+    ]
+}
+
+const p2 = {
+    nombre: pepe
+    direccion: {
+        calle: nazca
+        nro: 666
+    }
+    telefonos: [
+        5555
+    ]
+}
+
+//=======================================
+
+// personas
+
+id | nombre | direccion |
+1  | marian |     1     | 
+2  | pepe   |     2     |
+
+// direcciones
+
+id | calle     | nro  |
+-----------------------
+1  | rivadavia | 1234 |
+2  | nazca     | 666  |
+
+// telefonos
+
+id | idPropietario | telefono |
+-------------------------------
+1  |       1       | 1234     |
+2  |       1       | 5678     |
+3  |       1       | 3333     |
+4  |       2       | 5555     |
+
+// claves foraneas
+// personas.direccion -> direcciones.id
+// telefonos.idPropietario -> personas.id
+
+## const p = {
+##     nombre: marian
+##     direccion-calle: rivadavia
+##     direccion-nro: 1234
+##     telefonos-1: 1234,
+##     telefonos-2: 5678
+## }
+## 
+## nombre | direccion-calle | direccion-nro | telefono-1  | telefono-1 | 
+## marian | rivadavia       | 1234          |
+##        |                 |               |
+##        |                 |               |
+##        |                 |               |
+##        |                 |               |
+##        |                 |               |
