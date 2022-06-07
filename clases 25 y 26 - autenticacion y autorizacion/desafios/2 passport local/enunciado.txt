@@ -1,0 +1,4 @@
+﻿Realizar el ejercicio anterior, utilizando passport con strategia local para realizar todas las funciones que se piden.
+No hace falta encriptar las contraseñas ni usar base de datos, todo puede residir en memoria del servidor: usuarios y sesiones.
+
+Comparar con la implementación anterior.

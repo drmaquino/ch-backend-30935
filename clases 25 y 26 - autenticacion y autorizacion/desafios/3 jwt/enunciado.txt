@@ -1,0 +1,19 @@
+﻿Utilizando la estructura de un servidor Nodejs express, realizar el siguiente desarrollo implementando las sesiones de usuario a través de JWT (JSON Web Token). Dichas sesiones tendrán una expiración de 1 minuto.
+
+Requerimientos del sistema:
+
+1) Tenga un formulario de registro de usuario (nombre, password y dirección) que almacene dicha información en un array en memoria.
+2) Un formulario de login (nombre y password) para permitir a los usuarios registrados iniciar una sesión.
+3) Si accede un usuario no registrado ó los credenciales no corresponden, el servidor enviará un error (puede ser a través de un objeto plano o de una plantilla).
+4) Si se quiere registrar un usuario que ya está registrado, el servidor enviará un error (puede ser a través de un objeto plano o de una plantilla).
+5) Al cargar la página principal (‘/’), si existe una sesión iniciada, se mostrarán los datos del usuario en cuestión (obtenidos mediante una consulta con el token debidamente adjunto en el encabezado de la petición de datos). Caso contrario, se lo redirigirá a una página que le informe que no posee autorización, y le ofrecerá ir a la página de login.
+6) Implementar el cierre de sesión con un botón logout en la página de datos de usuario, que redirige la vista al formulario de login.
+7) Como extra podemos implementar un contador de visitas, que se muestre sobre la vista de datos.
+
+Nota:  
+- No utilizar passport.
+- No utilizar session de express.
+- Priorizar la funcionalidad del backend (especialmente el manejo de firma y verificación de tokens) antes que el desarrollo de las vistas.
+- Se puede usar fetch para hacer la petición a la API de datos (adjuntando la cabecera necesaria para la autenticación)
+- También se pueden usar plantillas públicas (handlebars) para la carga dinámica de la página de datos, dependiendo del resultado de la autenticación.
+

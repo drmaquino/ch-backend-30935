@@ -1,0 +1,83 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "CoderClases",
+    "dateExported": "2022-06-07T16:56:06.184Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "937856d3-1f4f-4bb5-a456-766288d52e21",
+            "name": "autenticacion",
+            "containerId": "",
+            "created": "2022-05-12T16:17:40.427Z",
+            "sortNum": 10000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "cbc370ba-adff-44a3-8ce2-76a647124fae",
+            "colId": "39e3cbb1-6fe5-4867-a971-b8688ea1f470",
+            "containerId": "937856d3-1f4f-4bb5-a456-766288d52e21",
+            "name": "ruta protegida",
+            "url": "localhost:8080/api/datos",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2022-05-12T16:17:17.417Z",
+            "modified": "2022-06-07T16:21:22.332Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "1840973e-43fd-45bc-8e4e-c76e0a1c7095",
+            "colId": "39e3cbb1-6fe5-4867-a971-b8688ea1f470",
+            "containerId": "937856d3-1f4f-4bb5-a456-766288d52e21",
+            "name": "logout",
+            "url": "localhost:8080/auth/logout",
+            "method": "GET",
+            "sortNum": 15000,
+            "created": "2022-05-12T16:43:22.910Z",
+            "modified": "2022-06-07T16:41:52.461Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "16c61b8e-7c65-487d-a301-0fd52d5c85d7",
+            "colId": "39e3cbb1-6fe5-4867-a971-b8688ea1f470",
+            "containerId": "937856d3-1f4f-4bb5-a456-766288d52e21",
+            "name": "login",
+            "url": "localhost:8080/auth/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2022-05-12T16:28:02.616Z",
+            "modified": "2022-06-07T16:21:12.298Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"username\":\"coder\",\n    \"password\":\"house\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "8e9a37ae-2b03-49e1-b45c-161f995ebde3",
+            "colId": "39e3cbb1-6fe5-4867-a971-b8688ea1f470",
+            "containerId": "937856d3-1f4f-4bb5-a456-766288d52e21",
+            "name": "registro",
+            "url": "localhost:8080/api/usuarios",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2022-05-12T16:29:24.923Z",
+            "modified": "2022-06-07T16:20:37.693Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"username\":\"coder\",\n    \"password\":\"house\",\n    \"direccion\":\"aca\"\n}\n",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

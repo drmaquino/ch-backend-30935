@@ -1,0 +1,19 @@
+{
+  "name": "ejemplofacebooksession",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "express-session": "^1.17.2",
+    "passport": "^0.4.1",
+    "passport-twitter": "^0.1.5"
+  }
+}
