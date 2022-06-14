@@ -1,0 +1,1 @@
+$env:MY_VAR="8000" ; node index.js

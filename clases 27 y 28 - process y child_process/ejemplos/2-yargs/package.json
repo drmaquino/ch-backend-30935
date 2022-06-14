@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "name": "yargs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "yargs.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^17.2.0"
+  }
+}
