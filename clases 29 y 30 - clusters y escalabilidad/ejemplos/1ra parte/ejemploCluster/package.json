@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "name": "ejemplo-cluster",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node main.js",
+    "start:cluster": "node cluster.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
