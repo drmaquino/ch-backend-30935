@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "name": "ejemplolog4js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "log4js": "^6.5.2"
+  }
+}

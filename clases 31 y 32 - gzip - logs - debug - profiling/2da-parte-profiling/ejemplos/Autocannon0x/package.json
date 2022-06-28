@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "0x server.js",
+    "setup": "curl -X GET 'http://localhost:8080/newUser?username=marian&password=qwerty123'",
+    "test": "npm run setup && node benchmark.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autocannon": "^7.9.0",
+    "express": "^4.18.1"
+  }
+}

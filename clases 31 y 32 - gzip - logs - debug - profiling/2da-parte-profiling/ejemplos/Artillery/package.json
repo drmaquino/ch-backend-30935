@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "name": "prime-cluster",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "fork": "node server.js 8081 FORK",
+    "cluster": "node server.js 8081 CLUSTER"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

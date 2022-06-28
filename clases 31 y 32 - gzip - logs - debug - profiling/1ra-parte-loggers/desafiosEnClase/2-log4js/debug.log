@@ -1,0 +1,4 @@
+[2022-01-22T12:06:49.995] [INFO] prod - Servidor express escuchando en el puerto 8080
+[2022-01-22T12:07:03.992] [INFO] prod - Parámetros 5 y 10 correctos para la suma
+[2022-01-22T12:07:08.537] [INFO] prod - Parámetros 5 y 107 correctos para la suma
+[2022-01-22T12:07:47.497] [ERROR] prod - Parámetros incorrectos para la suma

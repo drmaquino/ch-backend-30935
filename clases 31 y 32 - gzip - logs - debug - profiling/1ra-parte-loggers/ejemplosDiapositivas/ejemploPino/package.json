@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "name": "ejemplopino",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pino": "^7.11.0"
+  }
+}
