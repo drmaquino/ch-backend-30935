@@ -2,4 +2,4 @@
 
 modificacion para probar cosas en clase
 
-despues hay que borrar este archivo
+despues hay que borrar este archivo, pq es de pruebas!
