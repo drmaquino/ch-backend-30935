@@ -1,0 +1,16 @@
+{
+  "name": "ejemplo-aws",
+  "author": "coderhouse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.874.0",
+    "express": "^4.17.1"
+  }
+}
