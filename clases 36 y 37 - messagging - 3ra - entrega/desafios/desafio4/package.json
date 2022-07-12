@@ -1,0 +1,16 @@
+{
+  "name": "nodemailer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node enviarWapp +54911nnnnnnnn \"Mensaje de prueba!\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "twilio": "^3.62.0"
+  }
+}

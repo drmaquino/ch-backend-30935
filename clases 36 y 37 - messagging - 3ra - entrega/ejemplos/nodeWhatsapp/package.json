@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "name": "node-wsp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "twilio": "^3.49.0"
+  }
+}

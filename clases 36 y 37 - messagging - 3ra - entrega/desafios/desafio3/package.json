@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "name": "twiliodemo",
+  "version": "1.0.0",
+  "main": "enviarsms.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "twilio": "^3.65.0"
+  }
+}
