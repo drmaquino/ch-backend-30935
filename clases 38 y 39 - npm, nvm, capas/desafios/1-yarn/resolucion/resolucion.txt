@@ -1,0 +1,15 @@
+Instalar el gestor de paquetes yarn con npm en forma global
+    npm install -g yarn
+Verificar la versión instalada de yarn
+    yarn --version
+Crear un proyecto de node.js utilizando yarn
+    yarn init -y
+Instalar express con yarn
+    yarn add [express]
+Crear un servidor express que devuelva en su ruta raíz el mensaje: "Hola Yarn"
+    ok
+Crear un script start que ejecute nodemon con el punto de entrada del servidor
+    yarn add express
+Ejecutar el script start con yarn
+    yarn start
+

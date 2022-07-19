@@ -1,0 +1,7 @@
+Realizar un proyecto que subiremos a npm como dependencia propia.
+Este paquete debe exportar cuatro funciones para realizar estas operaciones básicas entre dos números: suma, resta, multiplicación y division. Subir el proyecto a npm.
+
+Verificar que la dependencia se encuentre en npm (https://www.npmjs.com/package/nombre-del-paquete)
+
+Abrir el proyecto servidor del desafio anterior e instalar con npm la dependencia recién creada.
+Importar la dependencia en este proyecto y realizar un endpoint get por cada operación ingresando los valores por query params. Probar el correcto funcionamiento de esas rutas.

@@ -1,0 +1,22 @@
+[
+  {
+    "tipo": "sumar",
+    "params": [
+      10,
+      20
+    ],
+    "result": 30,
+    "timestamp": 1635546392595,
+    "id": 1
+  },
+  {
+    "tipo": "sumar",
+    "params": [
+      10,
+      25
+    ],
+    "result": 35,
+    "timestamp": 1635546397539,
+    "id": 2
+  }
+]

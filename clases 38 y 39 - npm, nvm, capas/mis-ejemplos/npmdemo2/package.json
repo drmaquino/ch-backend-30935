@@ -1,0 +1,15 @@
+{
+  "name": "npmdemo2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "npm-demo-for-ch": "^1.0.4"
+  }
+}
